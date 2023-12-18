@@ -1,0 +1,37 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+input {
+    border: none;
+    background-color: #ffffff20;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    // box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease;
+    cursor: pointer;
+    width: 150px;
+    
+    &:hover {
+        color: white;
+        background-color: #ffffff46;
+        border: 1px solid #ccc;
+    }
+    &:focus {
+        outline: none;
+        color: white;
+        background-color: #ffffff20;
+        border: 1px solid #ccc;
+        cursor: text;
+    }
+
+}
